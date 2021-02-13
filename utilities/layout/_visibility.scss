@@ -1,0 +1,31 @@
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}
+
+@media only screen and (min-width: var(--small-screen-size)) {
+  .sm\:visible {
+    visibility: visible;
+  }
+  .sm\:invisible {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: var(--medium-screen-size)) {
+  .md\:visible {
+    visibility: visible;
+  }
+  .md\:invisible {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: var(--large-screen-size)) {
+  .lg\:visible {
+    visibility: visible;
+  }
+  .lg\:invisible {
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,63 @@
+:root {
+  // Base Colors
+  --clr-black: #000;
+  --clr-white: #fff;
+  --clr-gray-50: #f9fafb;
+  --clr-gray-100: #f3f4f6;
+  --clr-gray-200: #e5e7eb;
+  --clr-gray-300: #d1d5db;
+  --clr-gray-400: #9ca3af;
+  --clr-gray-500: #6b7280;
+  --clr-gray-600: #4b5563;
+  --clr-gray-700: #374151;
+  --clr-gray-800: #1f2937;
+  --clr-gray-900: #111827;
+
+  // Main Text Colors
+  // --clr-title: #14142b;
+  // --clr-body: #4e4b66;
+  // --clr-label: #6e7191;
+  // --clr-placeholder: #a0a3bd;
+
+  // Main Color Variants
+  // --clr-primary: #5f2eea;
+  // --clr-secondary: #1cc8ee;
+  // --clr-error: #ed2e7e;
+  // --clr-success: #00ba88;
+  // --clr-warning: #f4b740;
+
+  // Main Gradient Variants
+  // --gradient-primary: linear-gradient(114.44deg, #7433ff 0%, #ffa3fd 100%);
+  // --clr-secondary: linear-gradient(114.44deg, #624af2 0%, #50ddc3 100%);
+  // --clr-accent: linear-gradient(114.44deg, #eb0055 0%, #fffa80 100%);
+
+  // Base Font Sizes
+  --fnt-size-xs: 0.75rem;
+  --fnt-size-sm: 0.875rem;
+  --fnt-size-base: 1rem;
+  --fnt-size-md: 1.125rem;
+  --fnt-size-lg: 1.5rem;
+  --fnt-size-xl: 1.25rem;
+  --fnt-size-2xl: 1.5rem;
+  --fnt-size-3xl: 1.875rem;
+  --fnt-size-4xl: 2.25rem;
+  --fnt-size-5xl: 3rem;
+  --fnt-size-6xl: 3.75rem;
+  --fnt-size-7xl: 4.5rem;
+  --fnt-size-8xl: 6rem;
+  --fnt-size-9xl: 8rem;
+
+  // Screen sizes
+  --small-screen-size: 768px;
+  --medium-screen-size: 992px;
+  --large-screen-size: 1200px;
+
+  --container-max-width: 1200px;
+}
+
+@media only screen and (min-width: var(--small-screen-size)) {
+}
+@media only screen and (min-width: var(--medium-screen-size)) {
+}
+@media only screen and (min-width: var(--large-screen-size)) {
+}

@@ -1,0 +1,217 @@
+.text-xs {
+  font-size: var(--fnt-size-xs);
+  line-height: 1rem;
+}
+.text-sm {
+  font-size: var(--fnt-size-sm);
+  line-height: 1.25rem;
+}
+.text-base {
+  font-size: var(--fnt-size-base);
+  line-height: 1.5rem;
+}
+.text-lg {
+  font-size: var(--fnt-size-lg);
+  line-height: 1.75rem;
+}
+.text-xl {
+  font-size: var(--fnt-size-xl);
+  line-height: 1.75rem;
+}
+.text-2xl {
+  font-size: var(--fnt-size-2xl);
+  line-height: 2rem;
+}
+.text-3xl {
+  font-size: var(--fnt-size-3xl);
+  line-height: 2.25rem;
+}
+.text-4xl {
+  font-size: var(--fnt-size-4xl);
+  line-height: 2.5rem;
+}
+.text-5xl {
+  font-size: var(--fnt-size-5xl);
+  line-height: 1;
+}
+.text-6xl {
+  font-size: var(--fnt-size-6xl);
+  line-height: 1;
+}
+.text-7xl {
+  font-size: var(--fnt-size-7xl);
+  line-height: 1;
+}
+.text-8xl {
+  font-size: var(--fnt-size-8xl);
+  line-height: 1;
+}
+.text-9xl {
+  font-size: var(--fnt-size-9xl);
+  line-height: 1;
+}
+
+@media only screen and (min-width: var(--small-screen-size)) {
+  .sm\:-text-xs {
+    font-size: var(--fnt-size-xs);
+    line-height: 1rem;
+  }
+  .sm\:-text-sm {
+    font-size: var(--fnt-size-sm);
+    line-height: 1.25rem;
+  }
+  .sm\:-text-base {
+    font-size: var(--fnt-size-base);
+    line-height: 1.5rem;
+  }
+  .sm\:-text-lg {
+    font-size: var(--fnt-size-lg);
+    line-height: 1.75rem;
+  }
+  .sm\:-text-xl {
+    font-size: var(--fnt-size-xl);
+    line-height: 1.75rem;
+  }
+  .sm\:-text-2xl {
+    font-size: var(--fnt-size-2xl);
+    line-height: 2rem;
+  }
+  .sm\:-text-3xl {
+    font-size: var(--fnt-size-3xl);
+    line-height: 2.25rem;
+  }
+  .sm\:-text-4xl {
+    font-size: var(--fnt-size-4xl);
+    line-height: 2.5rem;
+  }
+  .sm\:-text-5xl {
+    font-size: var(--fnt-size-5xl);
+    line-height: 1;
+  }
+  .sm\:-text-6xl {
+    font-size: var(--fnt-size-6xl);
+    line-height: 1;
+  }
+  .sm\:-text-7xl {
+    font-size: var(--fnt-size-7xl);
+    line-height: 1;
+  }
+  .sm\:-text-8xl {
+    font-size: var(--fnt-size-8xl);
+    line-height: 1;
+  }
+  .sm\:-text-9xl {
+    font-size: var(--fnt-size-9xl);
+    line-height: 1;
+  }
+}
+
+@media only screen and (min-width: var(--medium-screen-size)) {
+  .md\:-text-xs {
+    font-size: var(--fnt-size-xs);
+    line-height: 1rem;
+  }
+  .md\:-text-sm {
+    font-size: var(--fnt-size-sm);
+    line-height: 1.25rem;
+  }
+  .md\:text-base {
+    font-size: var(--fnt-size-base);
+    line-height: 1.5rem;
+  }
+  .md\:text-lg {
+    font-size: var(--fnt-size-lg);
+    line-height: 1.75rem;
+  }
+  .md\:text-xl {
+    font-size: var(--fnt-size-xl);
+    line-height: 1.75rem;
+  }
+  .md\:text-2xl {
+    font-size: var(--fnt-size-2xl);
+    line-height: 2rem;
+  }
+  .md\:text-3xl {
+    font-size: var(--fnt-size-3xl);
+    line-height: 2.25rem;
+  }
+  .md\:text-4xl {
+    font-size: var(--fnt-size-4xl);
+    line-height: 2.5rem;
+  }
+  .md\:text-5xl {
+    font-size: var(--fnt-size-5xl);
+    line-height: 1;
+  }
+  .md\:text-6xl {
+    font-size: var(--fnt-size-6xl);
+    line-height: 1;
+  }
+  .md\:text-7xl {
+    font-size: var(--fnt-size-7xl);
+    line-height: 1;
+  }
+  .md\:text-8xl {
+    font-size: var(--fnt-size-8xl);
+    line-height: 1;
+  }
+  .md\:text-9xl {
+    font-size: var(--fnt-size-9xl);
+    line-height: 1;
+  }
+}
+
+@media only screen and (min-width: var(--large-screen-size)) {
+  .lg\:-text-xs {
+    font-size: var(--fnt-size-xs);
+    line-height: 1rem;
+  }
+  .lg\:-text-sm {
+    font-size: var(--fnt-size-sm);
+    line-height: 1.25rem;
+  }
+  .lg\:text-base {
+    font-size: var(--fnt-size-base);
+    line-height: 1.5rem;
+  }
+  .lg\:text-lg {
+    font-size: var(--fnt-size-lg);
+    line-height: 1.75rem;
+  }
+  .lg\:text-xl {
+    font-size: var(--fnt-size-xl);
+    line-height: 1.75rem;
+  }
+  .lg\:text-2xl {
+    font-size: var(--fnt-size-2xl);
+    line-height: 2rem;
+  }
+  .lg\:text-3xl {
+    font-size: var(--fnt-size-3xl);
+    line-height: 2.25rem;
+  }
+  .lg\:text-4xl {
+    font-size: var(--fnt-size-4xl);
+    line-height: 2.5rem;
+  }
+  .lg\:text-5xl {
+    font-size: var(--fnt-size-5xl);
+    line-height: 1;
+  }
+  .lg\:text-6xl {
+    font-size: var(--fnt-size-6xl);
+    line-height: 1;
+  }
+  .lg\:text-7xl {
+    font-size: var(--fnt-size-7xl);
+    line-height: 1;
+  }
+  .lg\:text-8xl {
+    font-size: var(--fnt-size-8xl);
+    line-height: 1;
+  }
+  .lg\:text-9xl {
+    font-size: var(--fnt-size-9xl);
+    line-height: 1;
+  }
+}

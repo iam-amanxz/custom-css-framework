@@ -1,0 +1,67 @@
+.justify-self-auto {
+  justify-self: auto;
+}
+.justify-self-start {
+  justify-self: start;
+}
+.justify-self-end {
+  justify-self: end;
+}
+.justify-self-center {
+  justify-self: center;
+}
+.justify-self-stretch {
+  justify-self: stretch;
+}
+
+@media only screen and (min-width: var(--small-screen-size)) {
+  .sm\:justify-self-auto {
+    justify-self: auto;
+  }
+  .sm\:justify-self-start {
+    justify-self: start;
+  }
+  .sm\:justify-self-end {
+    justify-self: end;
+  }
+  .sm\:justify-self-center {
+    justify-self: center;
+  }
+  .sm\:justify-self-stretch {
+    justify-self: stretch;
+  }
+}
+@media only screen and (min-width: var(--medium-screen-size)) {
+  .md\:justify-self-auto {
+    justify-self: auto;
+  }
+  .md\:justify-self-start {
+    justify-self: start;
+  }
+  .md\:justify-self-end {
+    justify-self: end;
+  }
+  .md\:justify-self-center {
+    justify-self: center;
+  }
+  .md\:justify-self-stretch {
+    justify-self: stretch;
+  }
+}
+@media only screen and (min-width: var(--large-screen-size)) {
+  .lg\:justify-self-auto {
+    justify-self: auto;
+  }
+  .lg\:justify-self-start {
+    justify-self: start;
+  }
+  .lg\:justify-self-end {
+    justify-self: end;
+  }
+  .lg\:justify-self-center {
+    justify-self: center;
+  }
+  .lg\:justify-self-stretch {
+    justify-self: stretch;
+  }
+}
