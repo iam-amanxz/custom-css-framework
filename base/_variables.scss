@@ -2,6 +2,18 @@
   // Base Colors
   --clr-black: #000;
   --clr-white: #fff;
+  --clr-primary: #5f2eea;
+  --clr-primary-text: #fff;
+  --clr-primary-dark: #5726e0;
+  --clr-secondary: #1cc8ee;
+  --clr-secondary-text: #fff;
+  --clr-secondary-dark: #18bce0;
+  --clr-accent: #ed2e7e;
+  --clr-accent-text: #fff;
+  --clr-accent-dark: #d81f6c;
+  --clr-error: #ed2e2e;
+  --clr-success: #00ba88;
+  --clr-warning: #f4b740;
   --clr-gray-50: #f9fafb;
   --clr-gray-100: #f3f4f6;
   --clr-gray-200: #e5e7eb;
@@ -16,15 +28,9 @@
   // Main Text Colors
   // --clr-title: #14142b;
   // --clr-body: #4e4b66;
-  // --clr-label: #6e7191;
-  // --clr-placeholder: #a0a3bd;
-
-  // Main Color Variants
-  // --clr-primary: #5f2eea;
-  // --clr-secondary: #1cc8ee;
-  // --clr-error: #ed2e7e;
-  // --clr-success: #00ba88;
-  // --clr-warning: #f4b740;
+  // --clr-input-label: #6e7191;
+  // --clr-input-text: #14142b;
+  // --clr-input-placeholder: #a0a3bd;
 
   // Main Gradient Variants
   // --gradient-primary: linear-gradient(114.44deg, #7433ff 0%, #ffa3fd 100%);
@@ -35,9 +41,8 @@
   --fnt-size-xs: 0.75rem;
   --fnt-size-sm: 0.875rem;
   --fnt-size-base: 1rem;
-  --fnt-size-md: 1.125rem;
-  --fnt-size-lg: 1.5rem;
-  --fnt-size-xl: 1.25rem;
+  --fnt-size-lg: 1.25rem;
+  --fnt-size-xl: 1.35rem;
   --fnt-size-2xl: 1.5rem;
   --fnt-size-3xl: 1.875rem;
   --fnt-size-4xl: 2.25rem;
@@ -46,18 +51,4 @@
   --fnt-size-7xl: 4.5rem;
   --fnt-size-8xl: 6rem;
   --fnt-size-9xl: 8rem;
-
-  // Screen sizes
-  --small-screen-size: 768px;
-  --medium-screen-size: 992px;
-  --large-screen-size: 1200px;
-
-  --container-max-width: 1200px;
-}
-
-@media only screen and (min-width: var(--small-screen-size)) {
-}
-@media only screen and (min-width: var(--medium-screen-size)) {
-}
-@media only screen and (min-width: var(--large-screen-size)) {
 }

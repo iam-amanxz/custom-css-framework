@@ -20,7 +20,7 @@
   flex-wrap: nowrap;
 }
 
-@media only screen and (min-width: var(--small-screen-size)) {
+@media (min-width: 640px) {
   .sm\:flex-grow-0 {
     flex-grow: 0;
   }
@@ -43,7 +43,7 @@
     flex-wrap: nowrap;
   }
 }
-@media only screen and (min-width: var(--medium-screen-size)) {
+@media (min-width: 768px) {
   .md\:flex-grow-0 {
     flex-grow: 0;
   }
@@ -66,7 +66,7 @@
     flex-wrap: nowrap;
   }
 }
-@media only screen and (min-width: var(--large-screen-size)) {
+@media (min-width: 1024px) {
   .lg\:flex-grow-0 {
     flex-grow: 0;
   }
@@ -86,6 +86,52 @@
     flex-wrap: wrap-reverse;
   }
   .lg\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:flex-grow-0 {
+    flex-grow: 0;
+  }
+  .xl\:flex-grow {
+    flex-grow: 1;
+  }
+  .xl\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+  .xl\:lex-shrink {
+    flex-shrink: 1;
+  }
+  .xl\:flex-wrap {
+    flex-wrap: wrap;
+  }
+  .xl\:flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+  }
+  .xl\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+}
+@media (min-width: 1536px) {
+  .\2xl\:flex-grow-0 {
+    flex-grow: 0;
+  }
+  .\2xl\:flex-grow {
+    flex-grow: 1;
+  }
+  .\2xl\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+  .\2xl\:lex-shrink {
+    flex-shrink: 1;
+  }
+  .\2xl\:flex-wrap {
+    flex-wrap: wrap;
+  }
+  .\2xl\:flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+  }
+  .\2xl\:flex-nowrap {
     flex-wrap: nowrap;
   }
 }

@@ -1,0 +1,137 @@
+.place-content-center {
+  place-content: center;
+}
+.place-content-start {
+  place-content: start;
+}
+.place-content-end {
+  place-content: end;
+}
+.place-content-between {
+  place-content: space-between;
+}
+.place-content-around {
+  place-content: space-around;
+}
+.place-content-evenly {
+  place-content: space-evenly;
+}
+.place-content-stretch {
+  place-content: stretch;
+}
+@media (min-width: 640px) {
+  .sm\:place-content-center {
+    place-content: center;
+  }
+  .sm\:place-content-start {
+    place-content: start;
+  }
+  .sm\:place-content-end {
+    place-content: end;
+  }
+  .sm\:place-content-between {
+    place-content: space-between;
+  }
+  .sm\:place-content-around {
+    place-content: space-around;
+  }
+  .sm\:place-content-evenly {
+    place-content: space-evenly;
+  }
+  .sm\:place-content-stretch {
+    place-content: stretch;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:place-content-center {
+    place-content: center;
+  }
+  .md\:place-content-start {
+    place-content: start;
+  }
+  .md\:place-content-end {
+    place-content: end;
+  }
+  .md\:place-content-between {
+    place-content: space-between;
+  }
+  .md\:place-content-around {
+    place-content: space-around;
+  }
+  .md\:place-content-evenly {
+    place-content: space-evenly;
+  }
+  .md\:place-content-stretch {
+    place-content: stretch;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:place-content-center {
+    place-content: center;
+  }
+  .lg\:place-content-start {
+    place-content: start;
+  }
+  .lg\:place-content-end {
+    place-content: end;
+  }
+  .lg\:place-content-between {
+    place-content: space-between;
+  }
+  .lg\:place-content-around {
+    place-content: space-around;
+  }
+  .lg\:place-content-evenly {
+    place-content: space-evenly;
+  }
+  .lg\:place-content-stretch {
+    place-content: stretch;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:place-content-center {
+    place-content: center;
+  }
+  .xl\:place-content-start {
+    place-content: start;
+  }
+  .xl\:place-content-end {
+    place-content: end;
+  }
+  .xl\:place-content-between {
+    place-content: space-between;
+  }
+  .xl\:place-content-around {
+    place-content: space-around;
+  }
+  .xl\:place-content-evenly {
+    place-content: space-evenly;
+  }
+  .xl\:place-content-stretch {
+    place-content: stretch;
+  }
+}
+@media (min-width: 1536px) {
+  .\2xl\:place-content-center {
+    place-content: center;
+  }
+  .\2xl\:place-content-start {
+    place-content: start;
+  }
+  .\2xl\:place-content-end {
+    place-content: end;
+  }
+  .\2xl\:place-content-between {
+    place-content: space-between;
+  }
+  .\2xl\:place-content-around {
+    place-content: space-around;
+  }
+  .\2xl\:place-content-evenly {
+    place-content: space-evenly;
+  }
+  .\2xl\:place-content-stretch {
+    place-content: stretch;
+  }
+}

@@ -1,27 +1,220 @@
-.fw-100 {
+.font-thin {
   font-weight: 100;
 }
-.fw-200 {
+
+.font-extralight {
   font-weight: 200;
 }
-.fw-300 {
+
+.font-light {
   font-weight: 300;
 }
-.fw-400 {
+
+.font-normal {
   font-weight: 400;
 }
-.fw-500 {
+
+.font-medium {
   font-weight: 500;
 }
-.fw-600 {
+
+.font-semibold {
   font-weight: 600;
 }
-.fw-700 {
+
+.font-bold {
   font-weight: 700;
 }
-.fw-800 {
+
+.font-extrabold {
   font-weight: 800;
 }
-.fw-900 {
+
+.font-black {
   font-weight: 900;
+}
+@media (min-width: 640px) {
+  .sm\:font-thin {
+    font-weight: 100;
+  }
+
+  .sm\:font-extralight {
+    font-weight: 200;
+  }
+
+  .sm\:font-light {
+    font-weight: 300;
+  }
+
+  .sm\:font-normal {
+    font-weight: 400;
+  }
+
+  .sm\:font-medium {
+    font-weight: 500;
+  }
+
+  .sm\:font-semibold {
+    font-weight: 600;
+  }
+
+  .sm\:font-bold {
+    font-weight: 700;
+  }
+
+  .sm\:font-extrabold {
+    font-weight: 800;
+  }
+
+  .sm\:font-black {
+    font-weight: 900;
+  }
+}
+@media (min-width: 768px) {
+  .md\:font-thin {
+    font-weight: 100;
+  }
+
+  .md\:font-extralight {
+    font-weight: 200;
+  }
+
+  .md\:font-light {
+    font-weight: 300;
+  }
+
+  .md\:font-normal {
+    font-weight: 400;
+  }
+
+  .md\:font-medium {
+    font-weight: 500;
+  }
+
+  .md\:font-semibold {
+    font-weight: 600;
+  }
+
+  .md\:font-bold {
+    font-weight: 700;
+  }
+
+  .md\:font-extrabold {
+    font-weight: 800;
+  }
+
+  .md\:font-black {
+    font-weight: 900;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:font-thin {
+    font-weight: 100;
+  }
+
+  .lg\:font-extralight {
+    font-weight: 200;
+  }
+
+  .lg\:font-light {
+    font-weight: 300;
+  }
+
+  .lg\:font-normal {
+    font-weight: 400;
+  }
+
+  .lg\:font-medium {
+    font-weight: 500;
+  }
+
+  .lg\:font-semibold {
+    font-weight: 600;
+  }
+
+  .lg\:font-bold {
+    font-weight: 700;
+  }
+
+  .lg\:font-extrabold {
+    font-weight: 800;
+  }
+
+  .lg\:font-black {
+    font-weight: 900;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:font-thin {
+    font-weight: 100;
+  }
+
+  .xl\:font-extralight {
+    font-weight: 200;
+  }
+
+  .xl\:font-light {
+    font-weight: 300;
+  }
+
+  .xl\:font-normal {
+    font-weight: 400;
+  }
+
+  .xl\:font-medium {
+    font-weight: 500;
+  }
+
+  .xl\:font-semibold {
+    font-weight: 600;
+  }
+
+  .xl\:font-bold {
+    font-weight: 700;
+  }
+
+  .xl\:font-extrabold {
+    font-weight: 800;
+  }
+
+  .xl\:font-black {
+    font-weight: 900;
+  }
+}
+@media (min-width: 1536px) {
+  .\2xl\:font-thin {
+    font-weight: 100;
+  }
+
+  .\2xl\:font-extralight {
+    font-weight: 200;
+  }
+
+  .\2xl\:font-light {
+    font-weight: 300;
+  }
+
+  .\2xl\:font-normal {
+    font-weight: 400;
+  }
+
+  .\2xl\:font-medium {
+    font-weight: 500;
+  }
+
+  .\2xl\:font-semibold {
+    font-weight: 600;
+  }
+
+  .\2xl\:font-bold {
+    font-weight: 700;
+  }
+
+  .\2xl\:font-extrabold {
+    font-weight: 800;
+  }
+
+  .\2xl\:font-black {
+    font-weight: 900;
+  }
 }

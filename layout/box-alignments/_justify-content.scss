@@ -17,7 +17,7 @@
   justify-content: space-evenly;
 }
 
-@media only screen and (min-width: var(--small-screen-size)) {
+@media (min-width: 640px) {
   .sm\:justify-start {
     justify-content: flex-start;
   }
@@ -37,7 +37,7 @@
     justify-content: space-evenly;
   }
 }
-@media only screen and (min-width: var(--medium-screen-size)) {
+@media (min-width: 768px) {
   .md\:justify-start {
     justify-content: flex-start;
   }
@@ -57,7 +57,7 @@
     justify-content: space-evenly;
   }
 }
-@media only screen and (min-width: var(--large-screen-size)) {
+@media (min-width: 1024px) {
   .lg\:justify-start {
     justify-content: flex-start;
   }
@@ -74,6 +74,46 @@
     justify-content: space-around;
   }
   .lg\:justify-evenly {
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:justify-start {
+    justify-content: flex-start;
+  }
+  .xl\:justify-end {
+    justify-content: flex-end;
+  }
+  .xl\:justify-center {
+    justify-content: center;
+  }
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
+  .xl\:justify-around {
+    justify-content: space-around;
+  }
+  .xl\:justify-evenly {
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1536px) {
+  .\2xl\:justify-start {
+    justify-content: flex-start;
+  }
+  .\2xl\:justify-end {
+    justify-content: flex-end;
+  }
+  .\2xl\:justify-center {
+    justify-content: center;
+  }
+  .\2xl\:justify-between {
+    justify-content: space-between;
+  }
+  .\2xl\:justify-around {
+    justify-content: space-around;
+  }
+  .\2xl\:justify-evenly {
     justify-content: space-evenly;
   }
 }

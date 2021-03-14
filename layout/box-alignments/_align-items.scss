@@ -14,7 +14,7 @@
   align-items: stretch;
 }
 
-@media only screen and (min-width: var(--small-screen-size)) {
+@media (min-width: 640px) {
   .sm\:items-start {
     align-items: flex-start;
   }
@@ -32,7 +32,7 @@
   }
 }
 
-@media only screen and (min-width: var(--medium-screen-size)) {
+@media (min-width: 768px) {
   .md\:items-start {
     align-items: flex-start;
   }
@@ -50,7 +50,7 @@
   }
 }
 
-@media only screen and (min-width: var(--large-screen-size)) {
+@media (min-width: 1024px) {
   .lg\:items-start {
     align-items: flex-start;
   }
@@ -64,6 +64,40 @@
     align-items: baseline;
   }
   .lg\:items-stretch {
+    align-items: stretch;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:items-start {
+    align-items: flex-start;
+  }
+  .xl\:items-end {
+    align-items: flex-end;
+  }
+  .xl\:items-center {
+    align-items: center;
+  }
+  .xl\:items-baseline {
+    align-items: baseline;
+  }
+  .xl\:items-stretch {
+    align-items: stretch;
+  }
+}
+@media (min-width: 1536px) {
+  .\2xl\:items-start {
+    align-items: flex-start;
+  }
+  .\2xl\:items-end {
+    align-items: flex-end;
+  }
+  .\2xl\:items-center {
+    align-items: center;
+  }
+  .\2xl\:items-baseline {
+    align-items: baseline;
+  }
+  .\2xl\:items-stretch {
     align-items: stretch;
   }
 }

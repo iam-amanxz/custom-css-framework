@@ -5,7 +5,7 @@
   visibility: hidden;
 }
 
-@media only screen and (min-width: var(--small-screen-size)) {
+@media (min-width: 640px) {
   .sm\:visible {
     visibility: visible;
   }
@@ -13,7 +13,7 @@
     visibility: hidden;
   }
 }
-@media only screen and (min-width: var(--medium-screen-size)) {
+@media only screen and (min-width: 768px) {
   .md\:visible {
     visibility: visible;
   }
@@ -21,11 +21,27 @@
     visibility: hidden;
   }
 }
-@media only screen and (min-width: var(--large-screen-size)) {
+@media (min-width: 1024px) {
   .lg\:visible {
     visibility: visible;
   }
   .lg\:invisible {
+    visibility: hidden;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:visible {
+    visibility: visible;
+  }
+  .xl\:invisible {
+    visibility: hidden;
+  }
+}
+@media (min-width: 1536px) {
+  .\2xl\:visible {
+    visibility: visible;
+  }
+  .\2xl\:invisible {
     visibility: hidden;
   }
 }

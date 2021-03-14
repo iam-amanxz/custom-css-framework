@@ -1,6 +1,9 @@
 .border-transparent {
   border-color: transparent;
 }
+.border-current {
+  border-color: currentColor;
+}
 .border-black {
   border-color: var(--clr-black);
 }

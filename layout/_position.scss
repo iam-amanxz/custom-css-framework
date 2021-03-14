@@ -14,7 +14,7 @@
   position: sticky;
 }
 
-@media only screen and (min-width: var(--small-screen-size)) {
+@media (min-width: 640px) {
   .sm\:static {
     position: static;
   }
@@ -31,7 +31,7 @@
     position: sticky;
   }
 }
-@media only screen and (min-width: var(--medium-screen-size)) {
+@media (min-width: 768px) {
   .md\:static {
     position: static;
   }
@@ -48,7 +48,7 @@
     position: sticky;
   }
 }
-@media only screen and (min-width: var(--large-screen-size)) {
+@media (min-width: 1024px) {
   .lg\:static {
     position: static;
   }
@@ -62,6 +62,40 @@
     position: relative;
   }
   .lg\:sticky {
+    position: sticky;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:static {
+    position: static;
+  }
+  .xl\:fixed {
+    position: fixed;
+  }
+  .xl\:absolute {
+    position: absolute;
+  }
+  .xl\:relative {
+    position: relative;
+  }
+  .xl\:sticky {
+    position: sticky;
+  }
+}
+@media (min-width: 1536px) {
+  .\2xl\:static {
+    position: static;
+  }
+  .\2xl\:fixed {
+    position: fixed;
+  }
+  .\2xl\:absolute {
+    position: absolute;
+  }
+  .\2xl\:relative {
+    position: relative;
+  }
+  .\2xl\:sticky {
     position: sticky;
   }
 }

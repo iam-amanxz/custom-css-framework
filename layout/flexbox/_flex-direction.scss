@@ -11,7 +11,7 @@
   flex-direction: column-reverse;
 }
 
-@media only screen and (min-width: var(--small-screen-size)) {
+@media (min-width: 640px) {
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -25,7 +25,7 @@
     flex-direction: column-reverse;
   }
 }
-@media only screen and (min-width: var(--medium-screen-size)) {
+@media (min-width: 768px) {
   .md\:flex-row {
     flex-direction: row;
   }
@@ -39,7 +39,7 @@
     flex-direction: column-reverse;
   }
 }
-@media only screen and (min-width: var(--large-screen-size)) {
+@media (min-width: 1024px) {
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -50,6 +50,34 @@
     flex-direction: column;
   }
   .lg\:flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+  .xl\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+  .xl\:flex-col {
+    flex-direction: column;
+  }
+  .xl\:flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 1536px) {
+  .\2xl\:flex-row {
+    flex-direction: row;
+  }
+  .\2xl\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+  .\2xl\:flex-col {
+    flex-direction: column;
+  }
+  .\2xl\:flex-col-reverse {
     flex-direction: column-reverse;
   }
 }

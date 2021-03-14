@@ -11,7 +11,7 @@
   text-align: justify;
 }
 
-@media only screen and (min-width: var(--small-screen-size)) {
+@media only screen and (min-width: 640px) {
   .sm\:text-right {
     text-align: right;
   }
@@ -25,7 +25,7 @@
     text-align: justify;
   }
 }
-@media only screen and (min-width: var(--medium-screen-size)) {
+@media only screen and (min-width: 768px) {
   .md\:text-right {
     text-align: right;
   }
@@ -39,7 +39,7 @@
     text-align: justify;
   }
 }
-@media only screen and (min-width: var(--large-screen-size)) {
+@media only screen and (min-width: 1024px) {
   .lg\:text-right {
     text-align: right;
   }
@@ -50,6 +50,34 @@
     text-align: center;
   }
   .lg\:text-justify {
+    text-align: justify;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .xl\:text-right {
+    text-align: right;
+  }
+  .xl\:text-left {
+    text-align: left;
+  }
+  .xl\:text-center {
+    text-align: center;
+  }
+  .xl\:text-justify {
+    text-align: justify;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  .\2xl\:text-right {
+    text-align: right;
+  }
+  .\2xl\:text-left {
+    text-align: left;
+  }
+  .\2xl\:text-center {
+    text-align: center;
+  }
+  .\2xl\:text-justify {
     text-align: justify;
   }
 }

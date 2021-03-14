@@ -1,11 +1,32 @@
 .text-transparent {
   color: transparent;
 }
+.text-current {
+  color: currentColor;
+}
 .text-black {
   color: var(--clr-black);
 }
 .text-white {
   color: var(--clr-white);
+}
+.text-primary {
+  color: var(--clr-primary);
+}
+.text-secondary {
+  color: var(--clr-secondary);
+}
+.text-accent {
+  color: var(--clr-accent);
+}
+.text-error {
+  color: var(--clr-error);
+}
+.text-success {
+  color: var(--clr-success);
+}
+.text-warning {
+  color: var(--clr-warning);
 }
 .text-gray-50 {
   color: var(--clr-gray-50);

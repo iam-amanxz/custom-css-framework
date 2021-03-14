@@ -14,7 +14,7 @@
   align-self: stretch;
 }
 
-@media only screen and (min-width: var(--small-screen-size)) {
+@media (min-width: 640px) {
   .sm\:self-auto {
     align-self: auto;
   }
@@ -31,7 +31,7 @@
     align-self: stretch;
   }
 }
-@media only screen and (min-width: var(--medium-screen-size)) {
+@media (min-width: 768px) {
   .md\:self-auto {
     align-self: auto;
   }
@@ -48,7 +48,7 @@
     align-self: stretch;
   }
 }
-@media only screen and (min-width: var(--large-screen-size)) {
+@media (min-width: 1024px) {
   .lg\:self-auto {
     align-self: auto;
   }
@@ -62,6 +62,40 @@
     align-self: center;
   }
   .lg\:self-stretch {
+    align-self: stretch;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:self-auto {
+    align-self: auto;
+  }
+  .xl\:self-start {
+    align-self: flex-start;
+  }
+  .xl\:self-end {
+    align-self: flex-end;
+  }
+  .xl\:self-center {
+    align-self: center;
+  }
+  .xl\:self-stretch {
+    align-self: stretch;
+  }
+}
+@media (min-width: 1536px) {
+  .\2xl\:self-auto {
+    align-self: auto;
+  }
+  .\2xl\:self-start {
+    align-self: flex-start;
+  }
+  .\2xl\:self-end {
+    align-self: flex-end;
+  }
+  .\2xl\:self-center {
+    align-self: center;
+  }
+  .\2xl\:self-stretch {
     align-self: stretch;
   }
 }
